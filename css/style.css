@@ -1,0 +1,120 @@
+/* 
+Project Name: Monthly Resolutions
+Project: One Month
+Template: Christopher Castig | @castig
+Author: Danielle Lattino | @DDdoingstuff
+*/
+
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+body {
+     background: url(../images/notebook.png);
+}
+#container {
+    width: 1000px;
+    margin: 0px auto 0 auto;
+
+}
+/* CONTAINER----------------*/
+
+
+#header {
+     width: 1000px;
+     margin: 0px auto 0 auto;
+     font-family: 'Lato', sans-serif;
+}
+h1 {
+     margin-bottom: 0px;
+     color:#292c47;
+}
+.subheading {
+     font-style: italic;
+     margin: 5px 50px 20px auto;
+}
+/* HEADER----------------*/
+
+
+#main {
+     padding: 20px 30px 50px 30px; 
+     width: 700px;
+     text-align: left;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7;
+     background-color: honeydew;
+     float: left;
+     box-shadow: 0 3px 3px rgba(0,0,0,.5);
+
+}
+
+h2 {
+     color: #cc71fc;
+}
+
+small {
+     color: grey;
+}
+
+.text {
+     color: #292c47;
+     font-size: 14px;
+     padding-bottom: 20px;
+}
+
+.blog-photos {
+     width: 550px;
+     padding: 0 20px 0 0;
+
+
+}
+
+/* MAIN----------------*/
+
+#sidebar {
+     padding: 30px; 
+     width: 290px;
+     margin: 0px auto 0px 10px;
+     line-height: 1.7;
+     font-family: 'Lato', sans-serif;
+     background-color: honeydew;
+     box-shadow: 0 3px 3px rgba(0,0,0,.5);
+     float: left;
+     
+}
+
+a {
+     text-decoration: none;
+     color: #cc71fc;
+}
+
+h4 {
+     color: #292c47;
+     margin: 0px;
+}
+.self-photo {
+     width: 140px;
+     border-radius: 50%;
+     padding: auto;
+}
+.sidebar-text {
+     font-size: 12px;
+}
+/* SIDE BAR----------------*/
+
+
+#footer {
+     padding: 10px auto 50px auto;
+     text-align: left; 
+     background-color: transparent;
+     font-size: 13px;
+}
+/* FOOTER----------------*/
+
